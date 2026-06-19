@@ -1,0 +1,10 @@
+# --- Core ---
+numpy
+torch
+pandas
+requests          # HTTP / Ollama backend for the local Action LLM (Qwen3-14B)
+
+# --- Optional LLM backends ---
+openai            # GPT-4o (Action-LLM capacity comparison)
+google-genai      # Gemini 2.5 Flash advisor (iterative-loop boundary analysis)
+transformers      # local Qwen3 via HuggingFace (alternative to Ollama)
